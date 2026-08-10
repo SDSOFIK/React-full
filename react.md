@@ -81,11 +81,79 @@ Multiple file bundle হয়  জাতে Browser দ্রুত load কর
 Performance বাড়ে ওয়েব সাইট তারাতারি open হয় 
 dist ফোল্ডার তৈরি হয় 
  dist folder-এ তোমার React/Vite project-এর final production files থাকে, যেগুলো browser সরাসরি ব্যবহার করতে পারে।
- 
+
  আমরা যদি শুধু এই ফিলে রান করতে পারি 
 
 এবং আমরা npx vite build দিয়ে চানং ফিলে তৈরি করতে পারি 
 
 
+=================== react project structure ==================================
+
+react procject all file into 
+
+1. vit.config.js হল configuration file যা এটা Vite-কে নির্দেশ দেয় যে project কীভাবে run হবে, build হবে, এবং কোন settings ব্যবহার করবে।
+
+react akta flagin 
+
+config ফিলে থাকে server run and build 
+
+defull je file run হয় আমরা change kroar onno port a run korte parbo 
+example:
+  server:{
+    port = 5000
+  }
+  এইভাবে আমরা যদি golabal a porijon hoy amra create kore nibo 
+
+এমন করে সেটঅপ করতে পারি 
+and আমরা জদি কেন package install করি তাহলে config file import korte hbe  
+
+import { defineConfig } from 'vite' ai file ta type bujita help kore 
+
+importent file gula amra config file rakhi  এখন dhori amra dist file ta name change korbe thle ki korte  হবে ছোট একটা পরিবতন করতে হবে 
+
+build:{
+    outDir: "shortFile"
+  }
+
+  তাহলে এখন build korle এই নামে ফিলে তৈরি হবে 
+
+  আরো আনেক কিছু করা যায় 
+
+  ========================= pakckage.json ======================== 
+
+  package.json file হল ফুল প্রোজেক্ট এর মা মানে মাদার যে সব কিছু রাখে 
+  এই ফাইলে  প্রোজেক্ট নামে ভারসন dependencies all information thake এই ফাইলে 
+
+  ১ম 
+   "name": "react-ful", আমদের প্রোজেক্ট নাম
+  "private": true,   প্রোজেক্ট টা public na privet 
+  "version": "0.0.0",  verson koto aita 
+  "type": "module", ki type project 
+
+
+
+  "scripts": {   scripts ফাইল প্রোজেক্ট কথায় রান হবে 
+    "dev": "vite",   এই dev হইল আমরা যে npm run dev দিয়ে প্রোজেক্ট run করি সেই comment 
+    "build": "vite build",  আমরা যে যেখন build dei তখন এইটা কাজ করে 
+    "lint": "oxlint",  
+    "preview": "vite preview"
+  },
+
+
+dependencies এই খানে আমরা যেত packgae install korbo sei gula info thakbe 
+
+      "devDependencies": এই ফাইলে devloper der tool instal থাকে মেইন প্রোজেক্ট  এ যায় না 
+
+
+
+      =========== lock.json ============== 
+
+      যে যে package gula install kori sei gula lock করা থাকে যাতে পরে যদি কেউ ইন্সটল করতে চায় ipm install korlei hbe 
+
+      ======================================== index.html ================
+
+      HTML file akber a render hoy tai ja kisu ace sob ai file thake r root dive amder যেত compemmet ace sob render kore aikne aikn recive kore 
+
+      এই rood ta ase src app.js ace গুলা 
 
 
