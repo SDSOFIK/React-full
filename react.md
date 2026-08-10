@@ -29,3 +29,34 @@ react js single page base
 > A component is essentially a reusable, self-contained piece of UI.
 >React allows you to break down a complex UI into smaller, manageable pieces
 > React offers two main types of components: functional components and class components.
+
+
+========================= react set up process with vite  ======================================
+
+what is a vite: vite হল একটা modern fondend build tool যা দিয়ে আমরা react create run করতে পারি এবং express js vinila java script o run create korte pari 
+
+
+vite crate আমদের commend holio :  npm create vite@latest 
+
+teeminal  ba cmd te jodi amra ai commend ta dei তাহলে 
+১ম  এ আমদের project name দিতে বলবে তারপর 
+২য় fremwork select then কি দিয়ে পারবা js and 
+৩য় vile js ta select kore nibo next 
+৪র্থ cd diye project name dibo oi file a cole jabo
+project run করা বা ইনফো রাখের জন আমরা 
+৫ম npm install kore nibo  node module file asbe and jason.lock o asbe 
+
+![alt text](image.png)
+
+
+======================= whay use vite create with react =====================================
+
+কয়েক সেকেন্ডে React project তৈরি হয়ে যায়। 
+Development server খুব দ্রুত চালু হয়। 
+বড় project হলেও start হতে বেশি সময় লাগে না।
+Code save করলেই browser-এ সাথে সাথে update দেখা যায়। fast hot reload হয় 
+পুরো app rebuild করতে হয় না।
+Website faster load করে।
+
+
+
