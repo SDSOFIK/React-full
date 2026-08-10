@@ -59,4 +59,33 @@ Code save করলেই browser-এ সাথে সাথে update দেখ
 Website faster load করে।
 
 
+=============== project run ===================
+
+react project ২ ভাবে run করা যায় 
+
+১. npm run dev 
+2. npx vite 
+এই ২ টা commaend চালিলে সেম একই ভাবে porject ta run হবে 
+
+আমরা যদি এই গুলা না দিয়ে নিজের মত করে সেট করতে চাই থাহলে তাও করতে পারব 
+package.json ফিলে গিয়ে dev নামে যেই টা আছে ওইটা change kore new name দিব যেইটা আমরা দিয়ে porject run korte chai 
+
+
+=================== run build =================================
+
+react a buil ki kore 
+
+ব JavaScript file optimize হয় file ছোট করে অপ্রয়োজনীয় code remove হয়। 
+css minify হয় ফাকা অ্যান্ড কমেন্ট ডিলিট করে দেয়  
+Multiple file bundle হয়  জাতে Browser দ্রুত load করতে পারে।
+Performance বাড়ে ওয়েব সাইট তারাতারি open হয় 
+dist ফোল্ডার তৈরি হয় 
+ dist folder-এ তোমার React/Vite project-এর final production files থাকে, যেগুলো browser সরাসরি ব্যবহার করতে পারে।
+ 
+ আমরা যদি শুধু এই ফিলে রান করতে পারি 
+
+এবং আমরা npx vite build দিয়ে চানং ফিলে তৈরি করতে পারি 
+
+
+
 
