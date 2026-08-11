@@ -156,4 +156,21 @@ dependencies এই খানে আমরা যেত packgae install korbo se
 
       এই rood ta ase src app.js ace গুলা 
 
+      1. React App-এর Entry Point হওয়া
+      2. Root Container প্রদান করা 
+      3. Meta Information রাখা
+    Character encoding (UTF-8)
+     Viewport settings (responsive design)
+     SEO-এর কিছু basic meta tags
+      4. Page Title সেট করা
+      5.Favicon যুক্ত করা
+      6.JavaScript Bundle লোড করা
+      7. External Resource যুক্ত করা
+      8. SEO Tags যোগ করা
+      9. Global Scripts যুক্ত করা
+
+      
+
+
+
 
