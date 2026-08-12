@@ -192,3 +192,20 @@ main.jsx হলো React অ্যাপ্লিকেশনের প্রব
 
 rood id ধরে ফুল অ্যাপ তা রানকরে 
 
+file 
+routing করতে হয় এবং আমরা যদি কন libriy boostatrap tawilnd css install করি তাহলে আমরা এইখানে import korbe jata full app tay poaya jay global ai links hoy 
+
+
+=========================  Organizing File ================================
+
+
+আমরা ইন্সটল করার সাথে সাথে অনেক ফিইল চলে আসে কিন্তু আমদের অনেক ফাইল এ লাগবে না আমরা কি কি ফাইল অ্যান্ড কোড ডিলিট করে দিব সেই গুলা 
+
+১। আমাদের  index.css ফাইল টা লাগবে না ডিলিট করে দিব অ্যান্ড main.jsx file import kora ace css ta remove kore dibo 
+2. সামে আগের মত আমরা app.css file ta remove kore dibo /
+3. amder react er je dufulls je image ace oigula delete kore dibo app,jsx file je gula rakhi oigula delete kore dibo amr
+
+
+react একটা components baesd freamwork tai আমরা src vitor akta components name akta file niba jate sob component rakhbo oikne 
+
+2. asesst file image kore all image assest file rakhbo 
