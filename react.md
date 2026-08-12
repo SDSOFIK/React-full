@@ -169,7 +169,22 @@ dependencies এই খানে আমরা যেত packgae install korbo se
       8. SEO Tags যোগ করা
       9. Global Scripts যুক্ত করা
 
-      
+    ======================= eslint.config.js ====================================
+
+ESLint JavaScript, React, Node.js প্রজেক্টে কোডের ভুল (errors) এবং coding style চেক করার জন্য ব্যবহার করা হয়।
+
+কেন ব্যবহার করা হয়?
+কোডের ভুল ধরতে
+Coding standard বজায় রাখতে
+Team project-এ একই style follow করতে
+Unused variable খুঁজে বের করতে
+Build বা deploy-এর আগে code quality check করতে
+
+========================== gitignore =====================
+
+gitgnore file হল আমরা যদি কন ফিইল গিট হাব এ দিতে না চাই তাহলে আমরা ওই ফিইল এর নাম ai gitgnore fille rakhe dibo 
+
+
 
 
 
