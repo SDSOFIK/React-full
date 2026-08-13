@@ -209,3 +209,20 @@ routing করতে হয় এবং আমরা যদি কন libriy boost
 react একটা components baesd freamwork tai আমরা src vitor akta components name akta file niba jate sob component rakhbo oikne 
 
 2. asesst file image kore all image assest file rakhbo 
+
+
+=================== VS Code Extensions And Settings For React ================
+
+1. Auto cloge tage > যদি আমরা কোন টাগ লিখি auto cloge tag diye day 
+2. auto rename tag > আমরা যদি tag er 1st ta change kori thle auto pore ta chage hoye jabe 
+3. vs code icon > all file এর সামনে তার icon thake 
+4. vscode react refactor  > যে কেন ফিইল জদি আমরা kno froment a convert kori thle sei ta ai kora jauy 
+5. prettier > যদি আমরা এলমেল থাকে সেভ দেওর সাথে সাথে ঠিক হয়ে যাবে ফরমেট 
+6. Thunder Client > api clinet vewie ja postmet er motoi কিন্তু thunder সধু vs code vitor ei thake 
+7. postmen > same api texting kaj a use hoy ai postmen kaj korte hole postmen er official web site akta acount thkte hbe 
+8. Eslint > এটি একটা জনপ্রয় জাবাসচ্রিপ tool je commone vule dore dan and bug dorte help kore 
+9. npm intellisense > node module thake kno kisu import ba export korte smy asmat sugestion day 
+10. path intellisense > এর কাজ হল আমরা যে গুলা custom compoment ba function create করি ওই গুলা import export korar smoy path sugest kore 
+11. reactjs code snippets > হল যে কোড ছোট এবং short cart user korar jnno age 
+12. snippt > যদি আমরা কেন কোড লিখতে চাই like consol.log jut consol kore full suggest korbe 
+13. stylelint > kno css code jodi vull kore ta dakhi day ba set kore day 
