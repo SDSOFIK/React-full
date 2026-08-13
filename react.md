@@ -226,3 +226,4 @@ react একটা components baesd freamwork tai আমরা src vitor akta co
 11. reactjs code snippets > হল যে কোড ছোট এবং short cart user korar jnno age 
 12. snippt > যদি আমরা কেন কোড লিখতে চাই like consol.log jut consol kore full suggest korbe 
 13. stylelint > kno css code jodi vull kore ta dakhi day ba set kore day 
+14. tailwind css intelliSense > tailwind cess intall korar smy tailwind je calss gula ace oigula sugesst kore 
