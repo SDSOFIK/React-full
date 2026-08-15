@@ -213,10 +213,10 @@ react একটা components baesd freamwork tai আমরা src vitor akta co
 
 =================== VS Code Extensions And Settings For React ================
 
-1. Auto cloge tage > যদি আমরা কোন টাগ লিখি auto cloge tag diye day 
+1. Auto cloge tag > যদি আমরা কোন টাগ লিখি auto cloge tag diye day 
 2. auto rename tag > আমরা যদি tag er 1st ta change kori thle auto pore ta chage hoye jabe 
 3. vs code icon > all file এর সামনে তার icon thake 
-4. vscode react refactor  > যে কেন ফিইল জদি আমরা kno froment a convert kori thle sei ta ai kora jauy 
+4. vscode react refactor  > আপনার React কোডকে স্বয়ংক্রিয়ভাবে অ্যানালাইজ করে তা আরও ক্লিন, অপ্টিমাইজড এবং সহজে মেইনটেইন করার উপযোগী করা যে কেন ফিইল জদি আমরা kno froment a convert kori thle sei ta ai kora jauy 
 5. prettier > যদি আমরা এলমেল থাকে সেভ দেওর সাথে সাথে ঠিক হয়ে যাবে ফরমেট 
 6. Thunder Client > api clinet vewie ja postmet er motoi কিন্তু thunder সধু vs code vitor ei thake 
 7. postmen > same api texting kaj a use hoy ai postmen kaj korte hole postmen er official web site akta acount thkte hbe 
@@ -227,3 +227,6 @@ react একটা components baesd freamwork tai আমরা src vitor akta co
 12. snippt > যদি আমরা কেন কোড লিখতে চাই like consol.log jut consol kore full suggest korbe 
 13. stylelint > kno css code jodi vull kore ta dakhi day ba set kore day 
 14. tailwind css intelliSense > tailwind cess intall korar smy tailwind je calss gula ace oigula sugesst kore 
+15. Code Spell Checker > বানান ভুল হলে নিচে নীল/হলুদ আন্ডারলাইন দেখায় Right Click করলে suggestion দেয়
+
+
