@@ -72,7 +72,30 @@ Component লিখার নিয়াম সব সময় ১ম অক্ষ�
 
 what is a jsx ?
 
-jsx হলো React-এর একটি syntax যার মাধ্যমে JavaScript-এর ভিতরে HTML-এর মতো কোড লেখা যায়।
+jsx হলো React-এর একটি syntax যার মাধ্যমে JavaScript-এর ভিতরে HTML-এর মতো কোড লেখা যায়। আমরা যদি কেন কন calass likhe চাই তাহলে camalCase করে সব লিখতে হবে like className 
+
+আমরা যদি কেন string print korte চাই থালকে 
+const name = "sofik"
+{ name} viwe dakhbe 
+
+> style লিখার নিয়ম  java scrip er 1st bondoni pore ta veribal liser jnni {{}}
+Example: style ={{color:"read"}}
+
+
+=========================== array =========================
+
+যদি আমরা কেন array list এ নিতে চাই তাহলে আমরা মাপ করে বডিতে নিয়ে আসব 
+example : 
+
+const food = ["apple" , "orang", "banana" ]
+
+
+food.map((item , index)=>{
+  return <li key={index}> item<li/> })  এইখানে key হলইও একটা unicek value যেটা দেই আমরা array value টা ধরি
+
+  সব গুলা { এর মাঝখানে রাখতে হবে }
+
+
 
 
 

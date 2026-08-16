@@ -1,14 +1,17 @@
 import React from 'react'
 
 export default function manu() {
+
+  const manuItem = ["Home" , "About", "Contact Us", "My Skill" ]
   return (
    <>
-   <ul>
-    <li>Home</li>
-    <li>About</li>
-    <li>contact us </li>
-    <li> My Skill </li>
-   </ul>
+   
+    {manuItem.map((item , index)=>{
+return <il key={index}> {item}</il>
+    })}
+   
+    
+
    </>
   )
 }
