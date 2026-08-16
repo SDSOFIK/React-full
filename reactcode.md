@@ -76,4 +76,18 @@ jsx হলো React-এর একটি syntax যার মাধ্যমে J
 
 
 
+JSX JAVASCRIPT XML
+>JSX is a syntax extension for JavaScript that allows you to write HTML-like code in your JavaScript code
+
+>It is commonly used in React applications to define the structure and content of UI components.
+
+>JSX is not a separate language, but a preprocessor that conts the HTML-like code into plain JavaScript.
+>It enables you to use JavaScript expressions within your HTML-like code, making it easier to dynamically generate content.
+
+>JSX can improve code readability and maintainability by allowing developers to write declarative, intuitive code.
+
+>jsx এ html code 
+
+
+
 
