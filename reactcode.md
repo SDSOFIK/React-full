@@ -95,6 +95,13 @@ food.map((item , index)=>{
 
   সব গুলা { এর মাঝখানে রাখতে হবে }
 
+  jsx js code করতে চাইলে অনল এক লাইনে এর কোড করে জায় যদি আমরা inline ba ak line na kori তাহলে আমরা exprestion ba functon kore korbe 
+
+  eximple:
+  const islogIn = trune
+
+  {isLongIn ? logout : login}
+
 
 
 
