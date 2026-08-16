@@ -1,9 +1,9 @@
 import React from 'react'
 
-export default function manu() {
+export default function Manu() {
   return (
    <>
-   <ul>
+   <ul style= {{display:"flex", gap: "30px" , textAlign:"center", width: "100%", justifyContent: "center"   }}>
     <li>Home</li>
     <li>About</li>
     <li>contact us </li>

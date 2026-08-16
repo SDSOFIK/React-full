@@ -3,8 +3,8 @@ import React from 'react';
 const Footer = () => {
     return (
         <div >
-            <p>copy all {Date.getFullYear}</p>
             
+<p>copy all {new Date().getFullYear()}</p>            
         </div>
     );
 };
