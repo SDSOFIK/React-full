@@ -147,3 +147,20 @@ jsx er ভিতর if else if else চালানর জন্য
 
 }
 
+================== jsx loop ========================
+
+যদি আমেদের অনেক গুলা ডাটা বার বার প্রিন্ট করতে হয় বা কন গানাতিক কিছু করতে হয়ে তাহলে আমরা loop use করি 
+example : 
+
+coant cuntry = [bd , uk , usa , ind , pk napel]
+
+
+map এর ভিতর আমরা একটা arro function dibo ২ টা পারেমাটার দিব ১ টা ভালু বা আইটেম ২ টা ইন্দেক্স যে array tar কোন index a ace oita diya unick kora jay 
+cuntry.map((item , index)=>{
+  <li key = {index}> {item}<li>
+})
+
+
+কেন আমরা JSX Map use করি অন্য কিছু কেন use kori na 
+
+১এ হইতেতে jsx a loop use করা যায় না সুধু expretion use করা যায়  r for loop akta state no a exptetion map হলিও exprestion tai র map ber ber view retrun korta pare loop return দেয় না code ta execution kore
