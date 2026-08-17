@@ -164,3 +164,26 @@ cuntry.map((item , index)=>{
 কেন আমরা JSX Map use করি অন্য কিছু কেন use kori na 
 
 ১এ হইতেতে jsx a loop use করা যায় না সুধু expretion use করা যায়  r for loop akta state no a exptetion map হলিও exprestion tai র map ber ber view retrun korta pare loop return দেয় না code ta execution kore
+
+=========================== JSX Conditional Rendering Using If Else================
+
+code shor and re ues করার জন্য আমরা যদি একটা function upor delecer 
+jex a call kore 
+
+আমরা যদি if else condition diye return korte pari 
+
+const isLogin = (ststus)=>{
+  if(ststus){
+    retun "your a logied"
+  }else {
+    retrun "please login fest"
+  }
+}
+
+<>
+retun
+<div>
+<p> {isLogin(status: true)} </p>
+
+</div>
+
