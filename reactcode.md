@@ -72,7 +72,37 @@ Component লিখার নিয়াম সব সময় ১ম অক্ষ�
 
 what is a jsx ?
 
-jsx হলো React-এর একটি syntax যার মাধ্যমে JavaScript-এর ভিতরে HTML-এর মতো কোড লেখা যায়।
+jsx হলো React-এর একটি syntax যার মাধ্যমে JavaScript-এর ভিতরে HTML-এর মতো কোড লেখা যায়। আমরা যদি কেন কন calass likhe চাই তাহলে camalCase করে সব লিখতে হবে like className 
+
+আমরা যদি কেন string print korte চাই থালকে 
+const name = "sofik"
+{ name} viwe dakhbe 
+
+> style লিখার নিয়ম  java scrip er 1st bondoni pore ta veribal liser jnni {{}}
+Example: style ={{color:"read"}}
+
+
+=========================== array =========================
+
+যদি আমরা কেন array list এ নিতে চাই তাহলে আমরা মাপ করে বডিতে নিয়ে আসব 
+example : 
+
+const food = ["apple" , "orang", "banana" ]
+
+
+food.map((item , index)=>{
+  return <li key={index}> item<li/> })  এইখানে key হলইও একটা unicek value যেটা দেই আমরা array value টা ধরি
+
+  সব গুলা { এর মাঝখানে রাখতে হবে }
+
+  jsx js code করতে চাইলে অনল এক লাইনে এর কোড করে জায় যদি আমরা inline ba ak line na kori তাহলে আমরা exprestion ba functon kore korbe 
+
+  eximple:
+  const islogIn = trune
+
+  {isLongIn ? logout : login}
+
+
 
 
 
@@ -89,5 +119,31 @@ JSX JAVASCRIPT XML
 >jsx এ html code 
 
 
+===================== short jsx if else handle =========================
 
+jsx a if else বা এক লাইন ছারা js likha jay na তাই আমরা একটা ভেরিয়াবে তৈরি করে নিব 
+examole 
+
+let login = true 
+
+login ? yes : no 
+
+==================== JSX Immediately invoked function =====================
+Immediately invoked function হইল  function টি create হয়ের সাথে সাথে  execute বা  সাথে সাথে run করবে 
+
+jsx er ভিতর if else if else চালানর জন্য 
+
+{ javasecrip expretion er vitor 
+2 টা () দিয়ে দিব অ্যান্ড আকেতে ভিতরে operation calabo 1 এর ভিতর এ একটা arro funtion diye logic dibo 
+(()=>{
+  if(){
+    retrun
+  }
+  else if(){
+    retun 
+  }
+}
+)()
+
+}
 
