@@ -204,5 +204,7 @@ retun
       })()
       }
 
+=========== JSX Conditional Rendering Using Ternary Operator =====================
+
 
       
