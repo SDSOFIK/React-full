@@ -187,3 +187,22 @@ retun
 
 </div>
 
+============= JSX Conditional Rendering Using Switch Statement ==================
+
+ const rol = "admin"
+
+ {
+      (()=>{
+        switch(rol){
+          case "admin":
+            return "Admin"
+            case "super admin":
+        return "Super Admin";
+        default:
+        return "Viewer";
+        }
+      })()
+      }
+
+
+      

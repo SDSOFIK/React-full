@@ -8,6 +8,9 @@ export default function Manu() {
 
   const rol = "admin"
 
+
+ 
+
   const manuItem = ["Home" , "About", "Contact Us", "My Skill" ]
   return (
    <>
@@ -18,6 +21,12 @@ export default function Manu() {
     {/*   // if else handle system 
  */}
     <li>{isLogIn ? "login": "logout"}</li>
+
+
+
+
+{/* if else condition  */}
+{/* 
     <li style={{color: "red" , border: "1px solid blue", padding: "1px"}}>{
       (()=>{
         if(rol === "admin"){
@@ -30,7 +39,24 @@ export default function Manu() {
           return "view"
         }
       })()
-      }</li>
+      }</li> */}
+
+     {/* switch case  */}
+
+     
+    <li style={{color: "red" , border: "1px solid blue", padding: "1px"}}>{
+      (()=>{
+        switch(rol){
+          case "admin":
+            return "Admin"
+            case "super admin":
+        return "Super Admin";
+        default:
+        return "Viewer";
+        }
+      })()
+      }</li> 
+
    </ul>
     
    </>
