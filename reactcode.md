@@ -206,5 +206,16 @@ retun
 
 =========== JSX Conditional Rendering Using Ternary Operator =====================
 
+আমরা taeanary Operator আগেই দেখছি
+
+const user = {isAdmin : true}
+
+return 
+<>
+{user.isAdmin? <p> is admin </p> :<p> is user </p> }
+
+এখানে চেক করবে এডমিন যদি সত্যি হয় থাহলে  এই মেসেজ দেখাবে না হলে  ওই মেসেজ দেখাবে 
+
+
 
       
