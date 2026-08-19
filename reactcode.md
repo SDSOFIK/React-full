@@ -217,5 +217,39 @@ return
 এখানে চেক করবে এডমিন যদি সত্যি হয় থাহলে  এই মেসেজ দেখাবে না হলে  ওই মেসেজ দেখাবে 
 
 
+==============   Conditional Rendering Using Logical And And =======================
 
-      
+and এইটা না হলে এইটা মানে আমদের if এর কাজ করবে eles এর কাজ করবে না সুধু সত্যি হলেই কাজ করবে 
+
+example 
+
+const isAdmin = true 
+
+retun 
+<>
+
+<h1>
+{inAdmin && "hello Admin"}
+</h1>
+</>
+
+সত্যি হলেই শুধু রান করবে তা ছাড়া মিথা রান করবে না react flase value run kore na 
+
+========================== SX Conditional Rendering Using Immidiatly Invoked Function ===========
+IIFE function আমরা হল কেন কিছু crate korte আগেই run হয় 
+
+IIFE crate করার সময় ২ তা () () দিয়ে ১ম টায় arominice function er vitor a if eles condotion dibo 
+
+const isLogin = ture
+
+<>
+
+(()=>{
+  if(){
+    return 
+  }
+  eles{
+    return 
+  }
+}) ()
+</>
