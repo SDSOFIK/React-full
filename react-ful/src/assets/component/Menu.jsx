@@ -1,6 +1,6 @@
 import React from 'react'
 
-export default function Manu() {
+export default function Menu() {
   // if else handle system 
   const isLogIn = true
 

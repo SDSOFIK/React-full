@@ -1,13 +1,24 @@
 import React from 'react'
 import ContactFrom from './assets/component/ContactForm'
-import Manu from './assets/component/Manu'
+import Menu from './assets/component/Menu'
 import Footer from "./assets/component/Footer"
+import Country  from './assets/component/Country'
+import ObjectCheck from './assets/component/ObjectCheck'
+
+
+const data = {
+  "Title": "React Course",
+  "Description": "HTML CSS JavaScript React"
+}
+
 
 export default function App() {
   return (
   <>
-    <Manu/>
+    <Menu/>
   <ContactFrom/>
+  <Country name="Bangladesh" capital="Dhaka"/>
+  <ObjectCheck item={data}/>
   <Footer/>
   
   </>
