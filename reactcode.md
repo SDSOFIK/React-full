@@ -253,3 +253,75 @@ const isLogin = ture
   }
 }) ()
 </>
+
+
+=========Passing properties to child component  ==================
+
+Props is short form of properties
+
+In ReactJS, props are a way of passing data
+from a parent component to a child component
+
+Props are passed to components like
+HTML attributes:
+
+You can pass any type of data: strings, numbers,
+objects, arrays, functions, even JSX
+
+
+=============== Passing simple string to child component ==============
+
+
+আমরা যদি কেন preant componet thake  child  component  আক্তাধিক date পাঠাইতে পারি আমর app commponent থাকে country component a props patbo 
+
+
+=================== Managing Click Event ===================
+onclick Function 
+const [isOpen , setOpen] = useState(false)
+  const [message, setMessage] = useState(false)
+
+
+  
+import { useState } from "react"
+
+
+button
+   onClick={()=>setOpen(true)}
+   
+   >Country and Capital</button>
+
+    {
+      isOpen && (
+        <div style={
+          {
+            background : "red",
+            margin: "auto",
+            justifyContent: "center"
+          }
+        }>
+          <h1>
+           
+            {name}
+            </h1>
+            <h4>
+              {capital}
+            </h4>
+            <button
+           
+            onClick={()=>{setOpen(false)
+            setMessage(true);
+              setTimeout(() => {
+                setMessage(false)
+    
+  }, 1000);
+            }}>close</button>
+        </div>
+      )
+    }
+    {
+      message &&(
+            <div  style={{background: "green"}}>
+              Closed
+            </div>
+      )
+    }
