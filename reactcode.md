@@ -219,6 +219,7 @@ return
 
 ==============   Conditional Rendering Using Logical And And =======================
 
+
 and এইটা না হলে এইটা মানে আমদের if এর কাজ করবে eles এর কাজ করবে না সুধু সত্যি হলেই কাজ করবে 
 
 example 
@@ -255,6 +256,7 @@ const isLogin = ture
 </>
 
 
+<<<<<<< HEAD
 =========Passing properties to child component  ==================
 
 Props is short form of properties
@@ -273,6 +275,39 @@ objects, arrays, functions, even JSX
 
 
 আমরা যদি কেন preant componet thake  child  component  আক্তাধিক date পাঠাইতে পারি আমর app commponent থাকে country component a props patbo 
+
+
+
+=================  praent class thake chile componement object pathano =================== 
+
+আমরা জদি কেন preant থাকে child a object pathie চাই থলে 
+
+example 
+
+
+const data = {
+  "Title": "React Course",
+  "Description": "HTML CSS JavaScript React"
+}
+
+<>
+
+ObjecctCchek item={data}
+</>
+
+
+const ObjectCheck = (props) => {
+  return (
+   <div style={{justifyContent: "center", alignItems: "center"}}>
+    <h1>{props.item.Title}</h1>
+    <p>{props.item.Description}</p>
+   </div>
+  )
+}
+
+
+  এইখানে আমরা ঠিক এই ভাবে function ও করতে পারব preant compoment thake chiled compemet object hideb a pathie pari 
+
 
 
 =================== Managing Click Event ===================
