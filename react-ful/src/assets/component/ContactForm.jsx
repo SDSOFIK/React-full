@@ -1,6 +1,12 @@
 export default function ContactForm() {
+const submitData = (e)=>{
+  e.preventDefault();
+  e.target.reset()
+  alert('form submit')
+}
+
   return (
-    <form
+    <form onSubmit={submitData}
       style={{
         width: "400px",
         margin: "50px auto",
