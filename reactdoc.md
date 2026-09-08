@@ -35,3 +35,35 @@ hook function er নিছেই লেখা হয় অ্যান্ড ক�
 useRef() হইল একটা react er bull-in function 
 useRef() দিয়ে সরাসরি DOM moulton করা যায় এবং  render hoy na বা রেলড হয়ে না 
 
+আমরা যদি কেন কিছু জমা বা stor করতে চাই তাহলে আমরা তাহলে useRef() korte pari 
+
+Code example 
+
+const InputUseRef = () => {
+const inp = useRef();
+const listValue = useRef();
+const summitDate =()=>{
+    const input = inp.current.value.trim();
+    const li = document.createElement("li");
+    li.textContent = input
+
+listValue.current.appendChild(li)
+inp.current.value = "";
+}
+
+
+  return (
+    <div>
+        <input ref={inp} placeholder='type..........' />
+
+        <button onClick={summitDate}> summit </button>
+
+        <div>
+            <ul ref={listValue}>
+
+            </ul>
+        </div>
+    </div>
+  )
+}
+
