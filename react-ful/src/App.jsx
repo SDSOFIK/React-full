@@ -4,6 +4,7 @@ import Menu from './assets/component/Menu'
 import Footer from "./assets/component/Footer"
 import Country  from './assets/component/Country'
 import ObjectCheck from './assets/component/ObjectCheck'
+import InputUseRef from './assets/component/InputUseRef'
 
 
 const data = {
@@ -19,6 +20,8 @@ export default function App() {
   <ContactFrom/>
   <Country name="Bangladesh" capital="Dhaka"/>
   <ObjectCheck item={data}/>
+
+  <InputUseRef/>
   <Footer/>
   
   </>

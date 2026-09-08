@@ -256,7 +256,7 @@ const isLogin = ture
 </>
 
 
-<<<<<<< HEAD
+
 =========Passing properties to child component  ==================
 
 Props is short form of properties
@@ -360,3 +360,21 @@ button
             </div>
       )
     }
+
+
+
+=================  from ===============
+
+const submitData = (e)=>{
+  e.preventDefault();    কেন reload ছাড়ায় form submit হয় 
+  e.target.reset()   form sumbit হয়ের পরে ডাটা clear hoy 
+  alert('form submit')
+}
+
+<div>
+<form onSubmit={submitDate}>
+
+  <input type="text" name="" id=""  placeholder='typing...........'/>
+  <button type='submit'> Submit </button>
+</form>
+   </div>
