@@ -174,6 +174,11 @@ result.current.querySelector("#message").textContent =Message;
 
 </div>
 
+<div className="max-w-5xl m-auto">
+
+
+</div>
+
     </>
   )
 }
