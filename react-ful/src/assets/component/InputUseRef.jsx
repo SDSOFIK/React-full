@@ -1,4 +1,4 @@
-import { useRef } from "react"
+import { useState, useEffect, useRef } from "react"
 
 const InputUseRef = () => {
 const inp = useRef();
@@ -43,9 +43,39 @@ result.current.querySelector("#email").textContent =Email;
 result.current.querySelector("#message").textContent =Message;
   
 
-
-  
 }
+
+
+const text = useRef();
+
+let complete =() =>{
+  text.current.classList.add("line-through");
+  }
+
+  let uncomplete =()=>{
+    text.current.classList.remove("line-through")
+  }
+
+
+
+
+const [count , setCount] = useState(0)
+
+useEffect(()=>{
+
+  let num = 0 ;
+
+  let time = setInterval(()=>{
+
+    num++;
+    setCount(num);
+    if(num === 100){
+      clearInterval(time);
+    }
+
+  },10)
+
+}, []);
 
   return (
 
@@ -175,10 +205,23 @@ result.current.querySelector("#message").textContent =Message;
 </div>
 
 <div className="max-w-5xl m-auto">
+<h1 ref={text} className="text-black text-3xl">
+  task one complete and landing use useRef class change 
+</h1>
+
+  <button onClick={complete} className="text-white bg-green-400 rounded-lg m-2 p-2 hover:bg-green-200 ">Complete</button>
+  <button onClick={uncomplete} className="text-white bg-green-400 rounded-lg m-2 p-2 hover:bg-green-200 ">UnComplete</button>
+
+
+</div >
+
+<div className="max-w-5xl m-auto">
+<h1> set project </h1>
+
+<h3>{count}</h3>
 
 
 </div>
-
     </>
   )
 }

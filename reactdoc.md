@@ -71,4 +71,38 @@ inp.current.value = "";
 useRef() ak kothay storage kora jay 
 
 custom css o design kora jay like class change 
+আমরা যদি কেন div বা element এর ডিজাইন পরিবতন করতে চাই তাহলে আমরা useRef diye DOM menulaption korte পারি 
+
+উদাহারন
+
+*{
+const text = useRef();
+
+let complete =() =>{
+  text.current.classList.add("line-through");
+  }
+
+  let uncomplete =()=>{
+    text.current.classList.remove("line-through")
+  }
+
+
+
+div className="max-w-5xl m-auto">
+<h1 ref={text} className="text-black text-3xl">
+  task one complete and landing use useRef class change 
+</h1>
+
+  <button onClick={complete} className="text-white bg-green-400 rounded-lg m-2 p-2 hover:bg-green-200 ">Complete</button>
+  <button onClick={uncomplete} className="text-white bg-green-400 rounded-lg m-2 p-2 hover:bg-green-200 ">UnComplete</button>
+
+
+</div>
+
+}*
+
+
+=============== hook useRef() mutable property ========================
+
+আমরা যদি কেন ভালু বা ডাটা পরিবতন করতে চাই কিন্তু component কোনো রে-রেন্ডার করতে না চাই তাহলে আমরা এই mutable property use kori 
 
