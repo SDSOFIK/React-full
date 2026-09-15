@@ -106,3 +106,27 @@ div className="max-w-5xl m-auto">
 
 আমরা যদি কেন ভালু বা ডাটা পরিবতন করতে চাই কিন্তু component কোনো রে-রেন্ডার করতে না চাই তাহলে আমরা এই mutable property use kori 
 
+=============== useRef Caching Expensive Computation ===================
+
+যে Calculation করতে অনেক সময় লাগে তাকে Expensive Computation বলে।
+যদি অনেক বড় একটা Calculation করি বার বার লুপ চালাই তাহলে বার বার পেজ লোড নেয় তাহলে  Performance Slow করে তাই  useRef দিয়ে Cache করা kora hoy 
+
+code Examle 
+
+import { useRef } from "react";
+
+function App() {
+  const resultRef = useRef(null);
+
+  if (resultRef.current === null) {
+    resultRef.current = calculateTotal();
+  }
+
+  return (
+    <h1>{resultRef.current}</h1>
+  );
+}
+
+
+
+
